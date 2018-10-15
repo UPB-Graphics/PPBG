@@ -9,7 +9,7 @@
 using namespace std;
 
 // Order of function calling can be seen in "Source/Core/World.cpp::LoopUpdate()"
-// https://github.com/UPB-Graphics/SPG-Framework/blob/master/Source/Core/World.cpp
+// https://github.com/UPB-Graphics/PPBG/blob/master/Source/Core/World.cpp
 
 Laborator1::Laborator1()
 {
@@ -74,7 +74,7 @@ void Laborator1::FrameEnd()
 }
 
 // Read the documentation of the following functions in: "Source/Core/Window/InputController.h" or
-// https://github.com/UPB-Graphics/SPG-Framework/blob/master/Source/Core/Window/InputController.h
+// https://github.com/UPB-Graphics/PPBG/blob/master/Source/Core/Window/InputController.h
 
 void Laborator1::OnInputUpdate(float deltaTime, int mods)
 {

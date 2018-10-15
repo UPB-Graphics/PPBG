@@ -28,6 +28,18 @@
     <Filter Include="Laboratoare\Laborator1\Shaders">
       <UniqueIdentifier>{1dbdbd6b-a228-4ae4-9d1d-c7705cd4a999}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\SimpleShaders">
+      <UniqueIdentifier>{fe4033fd-f2cc-4062-8ff0-bd3f2ffc7a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\SimpleShaders\Shaders">
+      <UniqueIdentifier>{d3611b3e-1569-4beb-84dc-b9f98a46fe20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\OpenGLTextures">
+      <UniqueIdentifier>{ff3825dd-f994-426d-9d59-9ce086204307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\OpenGLTextures\Shaders">
+      <UniqueIdentifier>{0a565452-2e33-4d86-a25f-8408cdb837ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -79,6 +91,12 @@
       <Filter>Core\GPU</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.cpp">
+      <Filter>Laboratoare\SimpleShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.cpp">
+      <Filter>Laboratoare\OpenGLTextures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\Core\World.h">
@@ -150,6 +168,12 @@
     <ClInclude Include="..\Source\Core\GPU\ParticleEffect.h">
       <Filter>Core\GPU</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.h">
+      <Filter>Laboratoare\SimpleShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.h">
+      <Filter>Laboratoare\OpenGLTextures</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\FragmentShader.glsl">
@@ -160,6 +184,21 @@
     </None>
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\GeometryShader.glsl">
       <Filter>Laboratoare\Laborator1\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\FragmentShader.glsl">
+      <Filter>Laboratoare\SimpleShaders\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\GeometryShader.glsl">
+      <Filter>Laboratoare\SimpleShaders\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\VertexShader.glsl">
+      <Filter>Laboratoare\SimpleShaders\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\OpenGLTextures\Shaders\FragmentShader.glsl">
+      <Filter>Laboratoare\OpenGLTextures\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\OpenGLTextures\Shaders\VertexShader.glsl">
+      <Filter>Laboratoare\OpenGLTextures\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
