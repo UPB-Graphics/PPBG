@@ -18,7 +18,7 @@ OpenGLTextures::~OpenGLTextures()
 
 void OpenGLTextures::Init()
 {
-	const string textureLoc = "Source/Laboratoare/OpenGLTextures/Textures/";
+	const string textureLoc = RESOURCE_PATH::TEXTURES;
 
 	// Load textures
 	{
@@ -46,7 +46,7 @@ void OpenGLTextures::Init()
 	}
 
 	{
-		mapTextures["random"] = CreateRandomTexture(25, 25);
+		mapTextures["random"] = CreateRandomTexture(32, 32);
 	}
 
 	// Load meshes
@@ -105,7 +105,7 @@ void OpenGLTextures::Init()
 
 	// Create a shader program for drawing face polygon with the color of the normal
 	{
-		Shader *shader = new Shader("ShaderLab9");
+		Shader *shader = new Shader("ShaderTexture");
 		shader->AddShader("Source/Laboratoare/OpenGLTextures/Shaders/VertexShader.glsl", GL_VERTEX_SHADER);
 		shader->AddShader("Source/Laboratoare/OpenGLTextures/Shaders/FragmentShader.glsl", GL_FRAGMENT_SHADER);
 		shader->CreateAndLink();
@@ -130,7 +130,7 @@ void OpenGLTextures::Update(float deltaTimeSeconds)
 		glm::mat4 modelMatrix = glm::mat4(1);
 		modelMatrix = glm::translate(modelMatrix, glm::vec3(1, 1, -3));
 		modelMatrix = glm::scale(modelMatrix, glm::vec3(2));
-		RenderSimpleMesh(meshes["sphere"], shaders["ShaderLab9"], modelMatrix, mapTextures["earth"]);
+		RenderSimpleMesh(meshes["sphere"], shaders["ShaderTexture"], modelMatrix, mapTextures["earth"]);
 	}
 
 	{
@@ -138,7 +138,7 @@ void OpenGLTextures::Update(float deltaTimeSeconds)
 		modelMatrix = glm::translate(modelMatrix, glm::vec3(2, 0.5f, 0));
 		modelMatrix = glm::rotate(modelMatrix, RADIANS(60.0f), glm::vec3(1, 0, 0));
 		modelMatrix = glm::scale(modelMatrix, glm::vec3(0.75f));
-		RenderSimpleMesh(meshes["box"], shaders["ShaderLab9"], modelMatrix, mapTextures["crate"]);
+		RenderSimpleMesh(meshes["box"], shaders["ShaderTexture"], modelMatrix, mapTextures["crate"]);
 	}
 
 	{
@@ -146,21 +146,21 @@ void OpenGLTextures::Update(float deltaTimeSeconds)
 		modelMatrix = glm::translate(modelMatrix, glm::vec3(-2, 0.5f, 0));
 		modelMatrix = glm::scale(modelMatrix, glm::vec3(0.75f));
 		modelMatrix = glm::rotate(modelMatrix, RADIANS(75.0f), glm::vec3(1, 1, 0));
-		RenderSimpleMesh(meshes["box"], shaders["ShaderLab9"], modelMatrix, mapTextures["random"]);
+		RenderSimpleMesh(meshes["box"], shaders["ShaderTexture"], modelMatrix, mapTextures["random"]);
 	}
 
 	{
 		glm::mat4 modelMatrix = glm::mat4(1);
 		modelMatrix = glm::translate(modelMatrix, glm::vec3(0.0f, 0.5f, 0.0f));
 		modelMatrix = glm::scale(modelMatrix, glm::vec3(0.5f));
-		RenderSimpleMesh(meshes["square"], shaders["ShaderLab9"], modelMatrix, mapTextures["grass"]);
+		RenderSimpleMesh(meshes["square"], shaders["ShaderTexture"], modelMatrix, mapTextures["grass"]);
 	}
 
 	{
 		glm::mat4 modelMatrix = glm::mat4(1);
 		modelMatrix = glm::translate(modelMatrix, glm::vec3(-2, -0.5f, -3));
 		modelMatrix = glm::scale(modelMatrix, glm::vec3(0.1f));
-		RenderSimpleMesh(meshes["bamboo"], shaders["ShaderLab9"], modelMatrix, mapTextures["bamboo"]);
+		RenderSimpleMesh(meshes["bamboo"], shaders["ShaderTexture"], modelMatrix, mapTextures["bamboo"]);
 	}
 }
 
