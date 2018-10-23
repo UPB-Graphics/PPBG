@@ -35,6 +35,7 @@
     <ClCompile Include="..\Source\Core\World.cpp" />
     <ClCompile Include="..\Source\include\gl.cpp" />
     <ClCompile Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\GeometryShader\GeometryShader.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator1\Laborator1.cpp" />
     <ClCompile Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.cpp" />
     <ClCompile Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.cpp" />
@@ -63,6 +64,7 @@
     <ClInclude Include="..\Source\include\math.h" />
     <ClInclude Include="..\Source\include\utils.h" />
     <ClInclude Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.h" />
+    <ClInclude Include="..\Source\Laboratoare\GeometryShader\GeometryShader.h" />
     <ClInclude Include="..\Source\Laboratoare\LabList.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator1\Laborator1.h" />
     <ClInclude Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.h" />
@@ -71,6 +73,17 @@
   <ItemGroup>
     <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\VertexShader.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.FS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.GS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.VS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Particle.FS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Particle.GS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Particle.VS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Simple.FS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Simple.VS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\TriangleNormals.FS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\TriangleNormals.GS.glsl" />
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\TriangleNormals.VS.glsl" />
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\GeometryShader.glsl" />
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\VertexShader.glsl" />

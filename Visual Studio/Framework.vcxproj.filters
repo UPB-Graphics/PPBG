@@ -40,6 +40,12 @@
     <Filter Include="Laboratoare\OpenGLTextures\Shaders">
       <UniqueIdentifier>{0a565452-2e33-4d86-a25f-8408cdb837ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\GeometryShader">
+      <UniqueIdentifier>{e67e8b41-86cf-43d2-a7bd-828483948957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\GeometryShader\Shaders">
+      <UniqueIdentifier>{16953af9-a2e1-4b63-ade5-0aaf5d254686}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Laboratoare\FrameBuffers">
       <UniqueIdentifier>{3e370328-9435-487c-a314-b08a222c784c}</UniqueIdentifier>
     </Filter>
@@ -102,6 +108,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.cpp">
       <Filter>Laboratoare\OpenGLTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\GeometryShader\GeometryShader.cpp">
+      <Filter>Laboratoare\GeometryShader</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.cpp">
       <Filter>Laboratoare\FrameBuffers</Filter>
@@ -183,6 +192,9 @@
     <ClInclude Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.h">
       <Filter>Laboratoare\OpenGLTextures</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\GeometryShader\GeometryShader.h">
+      <Filter>Laboratoare\GeometryShader</Filter>
+    </ClInclude>
     <ClInclude Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.h">
       <Filter>Laboratoare\FrameBuffers</Filter>
     </ClInclude>
@@ -217,6 +229,39 @@
     </None>
     <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\VertexShader.glsl">
       <Filter>Laboratoare\FrameBuffers\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Particle.VS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Particle.GS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Particle.FS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.FS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.GS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.VS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\TriangleNormals.FS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\TriangleNormals.GS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\TriangleNormals.VS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Simple.FS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Simple.VS.glsl">
+      <Filter>Laboratoare\GeometryShader\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
