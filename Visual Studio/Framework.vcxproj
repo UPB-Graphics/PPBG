@@ -34,6 +34,7 @@
     <ClCompile Include="..\Source\Core\Window\WindowObject.cpp" />
     <ClCompile Include="..\Source\Core\World.cpp" />
     <ClCompile Include="..\Source\include\gl.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator1\Laborator1.cpp" />
     <ClCompile Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.cpp" />
     <ClCompile Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.cpp" />
@@ -61,12 +62,15 @@
     <ClInclude Include="..\Source\include\glm.h" />
     <ClInclude Include="..\Source\include\math.h" />
     <ClInclude Include="..\Source\include\utils.h" />
+    <ClInclude Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.h" />
     <ClInclude Include="..\Source\Laboratoare\LabList.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator1\Laborator1.h" />
     <ClInclude Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.h" />
     <ClInclude Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FragmentShader.glsl" />
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\VertexShader.glsl" />
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\GeometryShader.glsl" />
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\VertexShader.glsl" />

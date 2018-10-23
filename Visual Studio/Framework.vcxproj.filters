@@ -40,6 +40,12 @@
     <Filter Include="Laboratoare\OpenGLTextures\Shaders">
       <UniqueIdentifier>{0a565452-2e33-4d86-a25f-8408cdb837ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\FrameBuffers">
+      <UniqueIdentifier>{3e370328-9435-487c-a314-b08a222c784c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\FrameBuffers\Shaders">
+      <UniqueIdentifier>{6f51adb0-3703-46fb-b0cb-57f7fe8de9d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -96,6 +102,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.cpp">
       <Filter>Laboratoare\OpenGLTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.cpp">
+      <Filter>Laboratoare\FrameBuffers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +183,9 @@
     <ClInclude Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.h">
       <Filter>Laboratoare\OpenGLTextures</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.h">
+      <Filter>Laboratoare\FrameBuffers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\FragmentShader.glsl">
@@ -199,6 +211,12 @@
     </None>
     <None Include="..\Source\Laboratoare\OpenGLTextures\Shaders\VertexShader.glsl">
       <Filter>Laboratoare\OpenGLTextures\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FragmentShader.glsl">
+      <Filter>Laboratoare\FrameBuffers\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\VertexShader.glsl">
+      <Filter>Laboratoare\FrameBuffers\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
