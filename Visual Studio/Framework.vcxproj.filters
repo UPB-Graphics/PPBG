@@ -52,6 +52,18 @@
     <Filter Include="Laboratoare\FrameBuffers\Shaders">
       <UniqueIdentifier>{6f51adb0-3703-46fb-b0cb-57f7fe8de9d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\DeferredShading">
+      <UniqueIdentifier>{b8bb4f9c-79bc-4082-8005-8c44129c748b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\DeferredShading\Shaders">
+      <UniqueIdentifier>{76583261-4a75-4649-845a-872359d5b838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\PhongLighting">
+      <UniqueIdentifier>{52f08713-2705-4659-bbfa-55ebc6e07280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\PhongLighting\Shaders">
+      <UniqueIdentifier>{4a1d409a-b5e5-4d33-8b32-f835c5026f2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -114,6 +126,12 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.cpp">
       <Filter>Laboratoare\FrameBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\DeferredShading\DeferredShading.cpp">
+      <Filter>Laboratoare\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\PhongLighting\PhongLighting.cpp">
+      <Filter>Laboratoare\PhongLighting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -198,6 +216,12 @@
     <ClInclude Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.h">
       <Filter>Laboratoare\FrameBuffers</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\DeferredShading\DeferredShading.h">
+      <Filter>Laboratoare\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\PhongLighting\PhongLighting.h">
+      <Filter>Laboratoare\PhongLighting</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\FragmentShader.glsl">
@@ -262,6 +286,36 @@
     </None>
     <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Simple.VS.glsl">
       <Filter>Laboratoare\GeometryShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Composition.FS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Composition.VS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Deferred.FS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Deferred.VS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\LightPass.FS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\LightPass.VS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Render2Texture.FS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Render2Texture.VS.glsl">
+      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\PhongLighting\Shaders\PhongLighting.FS.glsl">
+      <Filter>Laboratoare\PhongLighting\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\PhongLighting\Shaders\PhongLighting.VS.glsl">
+      <Filter>Laboratoare\PhongLighting\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>

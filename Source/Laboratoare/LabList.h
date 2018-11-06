@@ -5,3 +5,5 @@
 #include <Laboratoare/OpenGLTextures/OpenGLTextures.h>
 #include <Laboratoare/GeometryShader/GeometryShader.h>
 #include <Laboratoare/FrameBuffers/FrameBuffers.h>
+#include <Laboratoare/PhongLighting/PhongLighting.h>
+#include <Laboratoare/DeferredShading/DeferredShading.h>

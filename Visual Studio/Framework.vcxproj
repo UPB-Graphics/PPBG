@@ -34,10 +34,12 @@
     <ClCompile Include="..\Source\Core\Window\WindowObject.cpp" />
     <ClCompile Include="..\Source\Core\World.cpp" />
     <ClCompile Include="..\Source\include\gl.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\DeferredShading\DeferredShading.cpp" />
     <ClCompile Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.cpp" />
     <ClCompile Include="..\Source\Laboratoare\GeometryShader\GeometryShader.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator1\Laborator1.cpp" />
     <ClCompile Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\PhongLighting\PhongLighting.cpp" />
     <ClCompile Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.cpp" />
     <ClCompile Include="..\Source\Main.cpp" />
   </ItemGroup>
@@ -63,14 +65,24 @@
     <ClInclude Include="..\Source\include\glm.h" />
     <ClInclude Include="..\Source\include\math.h" />
     <ClInclude Include="..\Source\include\utils.h" />
+    <ClInclude Include="..\Source\Laboratoare\DeferredShading\DeferredShading.h" />
     <ClInclude Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.h" />
     <ClInclude Include="..\Source\Laboratoare\GeometryShader\GeometryShader.h" />
     <ClInclude Include="..\Source\Laboratoare\LabList.h" />
     <ClInclude Include="..\Source\Laboratoare\Laborator1\Laborator1.h" />
     <ClInclude Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.h" />
+    <ClInclude Include="..\Source\Laboratoare\PhongLighting\PhongLighting.h" />
     <ClInclude Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Composition.FS.glsl" />
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Composition.VS.glsl" />
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Deferred.FS.glsl" />
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Deferred.VS.glsl" />
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\LightPass.FS.glsl" />
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\LightPass.VS.glsl" />
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Render2Texture.FS.glsl" />
+    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Render2Texture.VS.glsl" />
     <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\VertexShader.glsl" />
     <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.FS.glsl" />
@@ -89,6 +101,8 @@
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\VertexShader.glsl" />
     <None Include="..\Source\Laboratoare\OpenGLTextures\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\OpenGLTextures\Shaders\VertexShader.glsl" />
+    <None Include="..\Source\Laboratoare\PhongLighting\Shaders\PhongLighting.FS.glsl" />
+    <None Include="..\Source\Laboratoare\PhongLighting\Shaders\PhongLighting.VS.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\GeometryShader.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\VertexShader.glsl" />
