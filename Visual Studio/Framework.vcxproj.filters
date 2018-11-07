@@ -287,16 +287,12 @@
     <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Simple.VS.glsl">
       <Filter>Laboratoare\GeometryShader\Shaders</Filter>
     </None>
+    </None>
+    </None>
     <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Composition.FS.glsl">
       <Filter>Laboratoare\DeferredShading\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Composition.VS.glsl">
-      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
-    </None>
-    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Deferred.FS.glsl">
-      <Filter>Laboratoare\DeferredShading\Shaders</Filter>
-    </None>
-    <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Deferred.VS.glsl">
       <Filter>Laboratoare\DeferredShading\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\DeferredShading\Shaders\LightPass.FS.glsl">
