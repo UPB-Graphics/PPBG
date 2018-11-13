@@ -8,3 +8,4 @@
 #include <Laboratoare/PhongLighting/PhongLighting.h>
 #include <Laboratoare/DeferredShading/DeferredShading.h>
 #include <Laboratoare/ShadowMapping/ShadowMapping.h>
+#include <Laboratoare/EnvironmentMapping/EnvironmentMapping.h>

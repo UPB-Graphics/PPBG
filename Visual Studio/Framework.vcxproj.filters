@@ -64,6 +64,12 @@
     <Filter Include="Laboratoare\PhongLighting\Shaders">
       <UniqueIdentifier>{4a1d409a-b5e5-4d33-8b32-f835c5026f2c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\EnvironmentMapping">
+      <UniqueIdentifier>{9b92d698-7638-404a-85df-eaabc35b2412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\EnvironmentMapping\Shadows">
+      <UniqueIdentifier>{1fb8fe8f-ebdd-4b7a-951a-bf5095842e45}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Laboratoare\ShadowMapping">
       <UniqueIdentifier>{e1faac8d-7fb0-4143-83ba-6d936d9b52f3}</UniqueIdentifier>
     </Filter>
@@ -141,6 +147,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.cpp">
       <Filter>Laboratoare\ShadowMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\EnvironmentMapping\EnvironmentMapping.cpp">
+      <Filter>Laboratoare\EnvironmentMapping</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +243,9 @@
     <ClInclude Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.h">
       <Filter>Laboratoare\ShadowMapping</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\EnvironmentMapping\EnvironmentMapping.h">
+      <Filter>Laboratoare\EnvironmentMapping</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\Laborator1\Shaders\FragmentShader.glsl">
@@ -299,7 +311,11 @@
     <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Simple.VS.glsl">
       <Filter>Laboratoare\GeometryShader\Shaders</Filter>
     </None>
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FullScreenPass.FS.glsl">
+      <Filter>Laboratoare\FrameBuffers\Shaders</Filter>
     </None>
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FullScreenPass.VS.glsl">
+      <Filter>Laboratoare\FrameBuffers\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Composition.FS.glsl">
       <Filter>Laboratoare\DeferredShading\Shaders</Filter>
@@ -342,6 +358,18 @@
     </None>
     <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\TextureDebug.VS.glsl">
       <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\CubeMap.FS.glsl">
+      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\CubeMap.VS.glsl">
+      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\Normal.FS.glsl">
+      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\Normal.VS.glsl">
+      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
     </None>
   </ItemGroup>
 </Project>

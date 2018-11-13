@@ -35,6 +35,7 @@
     <ClCompile Include="..\Source\Core\World.cpp" />
     <ClCompile Include="..\Source\include\gl.cpp" />
     <ClCompile Include="..\Source\Laboratoare\DeferredShading\DeferredShading.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\EnvironmentMapping\EnvironmentMapping.cpp" />
     <ClCompile Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.cpp" />
     <ClCompile Include="..\Source\Laboratoare\GeometryShader\GeometryShader.cpp" />
     <ClCompile Include="..\Source\Laboratoare\Laborator1\Laborator1.cpp" />
@@ -67,6 +68,7 @@
     <ClInclude Include="..\Source\include\math.h" />
     <ClInclude Include="..\Source\include\utils.h" />
     <ClInclude Include="..\Source\Laboratoare\DeferredShading\DeferredShading.h" />
+    <ClInclude Include="..\Source\Laboratoare\EnvironmentMapping\EnvironmentMapping.h" />
     <ClInclude Include="..\Source\Laboratoare\FrameBuffers\FrameBuffers.h" />
     <ClInclude Include="..\Source\Laboratoare\GeometryShader\GeometryShader.h" />
     <ClInclude Include="..\Source\Laboratoare\LabList.h" />
@@ -83,7 +85,13 @@
     <None Include="..\Source\Laboratoare\DeferredShading\Shaders\LightPass.VS.glsl" />
     <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Render2Texture.FS.glsl" />
     <None Include="..\Source\Laboratoare\DeferredShading\Shaders\Render2Texture.VS.glsl" />
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\CubeMap.FS.glsl" />
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\CubeMap.VS.glsl" />
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\Normal.FS.glsl" />
+    <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\Normal.VS.glsl" />
     <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FragmentShader.glsl" />
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FullScreenPass.FS.glsl" />
+    <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\FullScreenPass.VS.glsl" />
     <None Include="..\Source\Laboratoare\FrameBuffers\Shaders\VertexShader.glsl" />
     <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.FS.glsl" />
     <None Include="..\Source\Laboratoare\GeometryShader\Shaders\Geometry.GS.glsl" />
