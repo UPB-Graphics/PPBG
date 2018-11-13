@@ -7,3 +7,4 @@
 #include <Laboratoare/FrameBuffers/FrameBuffers.h>
 #include <Laboratoare/PhongLighting/PhongLighting.h>
 #include <Laboratoare/DeferredShading/DeferredShading.h>
+#include <Laboratoare/ShadowMapping/ShadowMapping.h>

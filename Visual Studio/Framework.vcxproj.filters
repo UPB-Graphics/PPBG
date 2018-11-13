@@ -64,6 +64,12 @@
     <Filter Include="Laboratoare\PhongLighting\Shaders">
       <UniqueIdentifier>{4a1d409a-b5e5-4d33-8b32-f835c5026f2c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\ShadowMapping">
+      <UniqueIdentifier>{e1faac8d-7fb0-4143-83ba-6d936d9b52f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\ShadowMapping\Shaders">
+      <UniqueIdentifier>{975ba555-ac16-423e-8706-a1b02cf537f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -132,6 +138,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\PhongLighting\PhongLighting.cpp">
       <Filter>Laboratoare\PhongLighting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.cpp">
+      <Filter>Laboratoare\ShadowMapping</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -221,6 +230,9 @@
     </ClInclude>
     <ClInclude Include="..\Source\Laboratoare\PhongLighting\PhongLighting.h">
       <Filter>Laboratoare\PhongLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.h">
+      <Filter>Laboratoare\ShadowMapping</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -312,6 +324,24 @@
     </None>
     <None Include="..\Source\Laboratoare\PhongLighting\Shaders\PhongLighting.VS.glsl">
       <Filter>Laboratoare\PhongLighting\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\ShadowMapping.FS.glsl">
+      <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\ShadowMapping.VS.glsl">
+      <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\SimplePass.VS.glsl">
+      <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\SimplePass.FS.glsl">
+      <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\TextureDebug.FS.glsl">
+      <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\TextureDebug.VS.glsl">
+      <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>

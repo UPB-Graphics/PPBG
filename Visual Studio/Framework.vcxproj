@@ -40,6 +40,7 @@
     <ClCompile Include="..\Source\Laboratoare\Laborator1\Laborator1.cpp" />
     <ClCompile Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.cpp" />
     <ClCompile Include="..\Source\Laboratoare\PhongLighting\PhongLighting.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.cpp" />
     <ClCompile Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.cpp" />
     <ClCompile Include="..\Source\Main.cpp" />
   </ItemGroup>
@@ -72,6 +73,7 @@
     <ClInclude Include="..\Source\Laboratoare\Laborator1\Laborator1.h" />
     <ClInclude Include="..\Source\Laboratoare\OpenGLTextures\OpenGLTextures.h" />
     <ClInclude Include="..\Source\Laboratoare\PhongLighting\PhongLighting.h" />
+    <ClInclude Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.h" />
     <ClInclude Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.h" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +103,12 @@
     <None Include="..\Source\Laboratoare\OpenGLTextures\Shaders\VertexShader.glsl" />
     <None Include="..\Source\Laboratoare\PhongLighting\Shaders\PhongLighting.FS.glsl" />
     <None Include="..\Source\Laboratoare\PhongLighting\Shaders\PhongLighting.VS.glsl" />
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\ShadowMapping.FS.glsl" />
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\ShadowMapping.VS.glsl" />
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\SimplePass.FS.glsl" />
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\SimplePass.VS.glsl" />
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\TextureDebug.FS.glsl" />
+    <None Include="..\Source\Laboratoare\ShadowMapping\Shaders\TextureDebug.VS.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\GeometryShader.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\VertexShader.glsl" />
