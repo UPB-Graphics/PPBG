@@ -9,3 +9,4 @@
 #include <Laboratoare/DeferredShading/DeferredShading.h>
 #include <Laboratoare/ShadowMapping/ShadowMapping.h>
 #include <Laboratoare/EnvironmentMapping/EnvironmentMapping.h>
+#include <Laboratoare/ComputeShaders/ComputeShaders.h>

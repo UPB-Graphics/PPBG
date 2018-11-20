@@ -76,6 +76,12 @@
     <Filter Include="Laboratoare\ShadowMapping\Shaders">
       <UniqueIdentifier>{975ba555-ac16-423e-8706-a1b02cf537f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\ComputeShaders">
+      <UniqueIdentifier>{ea59952e-5eea-44a9-b328-a06e711c07fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\ComputeShaders\Shaders">
+      <UniqueIdentifier>{26ac03b7-4d64-43f0-bb58-3fcbd6b2494c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -150,6 +156,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\EnvironmentMapping\EnvironmentMapping.cpp">
       <Filter>Laboratoare\EnvironmentMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\ComputeShaders\ComputeShaders.cpp">
+      <Filter>Laboratoare\ComputeShaders</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -245,6 +254,9 @@
     </ClInclude>
     <ClInclude Include="..\Source\Laboratoare\EnvironmentMapping\EnvironmentMapping.h">
       <Filter>Laboratoare\EnvironmentMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\ComputeShaders\ComputeShaders.h">
+      <Filter>Laboratoare\ComputeShaders</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -370,6 +382,21 @@
     </None>
     <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\Normal.VS.glsl">
       <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ComputeShaders\Shaders\FullScreenPass.VS.glsl">
+      <Filter>Laboratoare\ComputeShaders\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ComputeShaders\Shaders\VertexShader.glsl">
+      <Filter>Laboratoare\ComputeShaders\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ComputeShaders\Shaders\FragmentShader.glsl">
+      <Filter>Laboratoare\ComputeShaders\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ComputeShaders\Shaders\FullScreenPass.FS.glsl">
+      <Filter>Laboratoare\ComputeShaders\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\ComputeShaders\Shaders\ComputeShader.CS.glsl">
+      <Filter>Laboratoare\ComputeShaders\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
