@@ -22,6 +22,7 @@ class Shader
 		unsigned int Reload();
 
 		void AddShader(const std::string &shaderFile, GLenum shaderType);
+		void AddShaderCode(const std::string& shaderCode, GLenum shaderType);
 		void ClearShaders();
 		unsigned int CreateAndLink();
 
@@ -33,6 +34,7 @@ class Shader
 	private:
 		void GetUniforms();
 		static unsigned int CreateShader(const std::string &shaderFile, GLenum shaderType);
+		static unsigned int CompileShader(const std::string shaderCode, GLenum shaderType);
 		static unsigned int CreateProgram(const std::vector<unsigned int> &shaderObjects);
 
 	public:
@@ -76,5 +78,6 @@ class Shader
 
 		std::string shaderName;
 		std::vector<ShaderFile> shaderFiles;
+		std::vector<ShaderFile> shaderCodes;
 		std::list<std::function<void()>> loadObservers;
 };
