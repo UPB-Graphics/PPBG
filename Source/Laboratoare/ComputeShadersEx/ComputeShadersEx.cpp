@@ -125,8 +125,7 @@ void ComputeShadersEx::Update(float deltaTimeSeconds)
 	const int nrTimers = 3;
 	GLuint64 timers[nrTimers];
 	unsigned int queryID[nrTimers];
-
-	glGenQueries(10, queryID);
+	glGenQueries(nrTimers, queryID);
 	
 	glQueryCounter(queryID[0], GL_TIMESTAMP);
 
