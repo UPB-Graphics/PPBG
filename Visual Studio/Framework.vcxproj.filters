@@ -88,6 +88,12 @@
     <Filter Include="Laboratoare\EnvironmentMapping\Shaders">
       <UniqueIdentifier>{1fb8fe8f-ebdd-4b7a-951a-bf5095842e45}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Laboratoare\TessellationShader">
+      <UniqueIdentifier>{cb1ca657-c9f5-46a8-94f2-278cef59f4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\TessellationShader\Shaders">
+      <UniqueIdentifier>{3e048b9d-8c81-478e-b39b-3d0cb87c5b3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Core\Engine.cpp">
@@ -168,6 +174,9 @@
     </ClCompile>
     <ClCompile Include="..\Source\Laboratoare\ComputeShadersEx\ComputeShadersEx.cpp">
       <Filter>Laboratoare\ComputeShadersEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Laboratoare\TessellationShader\TessellationShader.cpp">
+      <Filter>Laboratoare\TessellationShader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -269,6 +278,9 @@
     </ClInclude>
     <ClInclude Include="..\Source\Laboratoare\ComputeShadersEx\ComputeShadersEx.h">
       <Filter>Laboratoare\ComputeShadersEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Laboratoare\TessellationShader\TessellationShader.h">
+      <Filter>Laboratoare\TessellationShader</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -430,6 +442,18 @@
     </None>
     <None Include="..\Source\Laboratoare\ComputeShadersEx\Shaders\VertexShader.glsl">
       <Filter>Laboratoare\ComputeShadersEx\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\FragmentShader.glsl">
+      <Filter>Laboratoare\TessellationShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\TessellationControl.glsl">
+      <Filter>Laboratoare\TessellationShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\TessellationEval.glsl">
+      <Filter>Laboratoare\TessellationShader\Shaders</Filter>
+    </None>
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\VertexShader.glsl">
+      <Filter>Laboratoare\TessellationShader\Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -45,6 +45,7 @@
     <ClCompile Include="..\Source\Laboratoare\PhongLighting\PhongLighting.cpp" />
     <ClCompile Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.cpp" />
     <ClCompile Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.cpp" />
+    <ClCompile Include="..\Source\Laboratoare\TessellationShader\TessellationShader.cpp" />
     <ClCompile Include="..\Source\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +82,7 @@
     <ClInclude Include="..\Source\Laboratoare\PhongLighting\PhongLighting.h" />
     <ClInclude Include="..\Source\Laboratoare\ShadowMapping\ShadowMapping.h" />
     <ClInclude Include="..\Source\Laboratoare\SimpleShaders\SimpleShaders.h" />
+    <ClInclude Include="..\Source\Laboratoare\TessellationShader\TessellationShader.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Source\Laboratoare\ComputeShadersEx\Shaders\Blur.FS.glsl" />
@@ -136,6 +138,10 @@
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\FragmentShader.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\GeometryShader.glsl" />
     <None Include="..\Source\Laboratoare\SimpleShaders\Shaders\VertexShader.glsl" />
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\FragmentShader.glsl" />
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\TessellationControl.glsl" />
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\TessellationEval.glsl" />
+    <None Include="..\Source\Laboratoare\TessellationShader\Shaders\VertexShader.glsl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FB43B467-42CC-458C-9556-597B025830F7}</ProjectGuid>
