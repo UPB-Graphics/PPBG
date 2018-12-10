@@ -67,9 +67,6 @@
     <Filter Include="Laboratoare\EnvironmentMapping">
       <UniqueIdentifier>{9b92d698-7638-404a-85df-eaabc35b2412}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Laboratoare\EnvironmentMapping\Shadows">
-      <UniqueIdentifier>{1fb8fe8f-ebdd-4b7a-951a-bf5095842e45}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Laboratoare\ShadowMapping">
       <UniqueIdentifier>{e1faac8d-7fb0-4143-83ba-6d936d9b52f3}</UniqueIdentifier>
     </Filter>
@@ -87,6 +84,9 @@
     </Filter>
     <Filter Include="Laboratoare\ComputeShadersEx\Shaders">
       <UniqueIdentifier>{0f1d4fc2-46f7-4775-a255-38a12c4419ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Laboratoare\EnvironmentMapping\Shaders">
+      <UniqueIdentifier>{1fb8fe8f-ebdd-4b7a-951a-bf5095842e45}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -384,16 +384,16 @@
       <Filter>Laboratoare\ShadowMapping\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\CubeMap.FS.glsl">
-      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+      <Filter>Laboratoare\EnvironmentMapping\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\CubeMap.VS.glsl">
-      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+      <Filter>Laboratoare\EnvironmentMapping\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\Normal.FS.glsl">
-      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+      <Filter>Laboratoare\EnvironmentMapping\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\EnvironmentMapping\Shaders\Normal.VS.glsl">
-      <Filter>Laboratoare\EnvironmentMapping\Shadows</Filter>
+      <Filter>Laboratoare\EnvironmentMapping\Shaders</Filter>
     </None>
     <None Include="..\Source\Laboratoare\ComputeShaders\Shaders\FullScreenPass.VS.glsl">
       <Filter>Laboratoare\ComputeShaders\Shaders</Filter>
